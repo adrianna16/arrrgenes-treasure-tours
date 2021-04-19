@@ -56,6 +56,10 @@ body {
   text-decoration: none;
 }
 
+.nav a:hover {
+  color: #bea59b;
+}
+
 .banner {
   display: grid;
   grid-template-columns: 1fr;
@@ -93,6 +97,11 @@ body {
   color: #fff;
   font-weight: bold;
   text-decoration: none;
+}
+
+.banner a:hover {
+  background-color: #bea59b;
+  color: #fff;
 }
 
 .ship {
@@ -134,6 +143,11 @@ body {
   color: #522806;
   font-weight: bold;
   text-decoration: none;
+}
+
+.card a:hover {
+  background-color: #522806;
+  color: #fff;
 }
 
 .footer {
