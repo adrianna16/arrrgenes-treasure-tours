@@ -60,7 +60,7 @@ body {
   color: #bea59b;
 }
 
-.banner {
+.section {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
@@ -69,12 +69,12 @@ body {
   font-size: 1.5rem;
 }
 
-.banner img {
+.section img {
   grid-area: banner;
   width: 100%;
 }
 
-.banner div {
+.section div {
   grid-area: banner;
   align-self: center;
   justify-self: center;
@@ -83,12 +83,12 @@ body {
   text-align: center;
 }
 
-.banner h2,
-.banner p {
+.section h2,
+.section p {
   margin: 0 0 1.5rem;
 }
 
-.banner a {
+.section a {
   display: inline-block;
   background-color: transparent;
   padding: .5em 1.5em .6em;
@@ -99,7 +99,7 @@ body {
   text-decoration: none;
 }
 
-.banner a:hover {
+.section a:hover {
   background-color: #bea59b;
   color: #fff;
 }
